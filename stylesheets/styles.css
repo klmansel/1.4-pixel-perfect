@@ -38,8 +38,8 @@ header h1{
   color: white;
   position: absolute;
   top: 207px;
-  left: 165px;
-  letter-spacing: .1px;
+  left: 187px;
+
 }
 header h3{
   font-size: 16px;
@@ -49,8 +49,13 @@ header h3{
   left: 488px;
 }
 /*Top bar*/
-.branding span{
+#paddle{
   font-family: 'Open Sans', sans-serif;
+  color: black;
+  transform:scale(-3,1); /* Safari and Chrome */
+  letter-spacing: -5px;
+/*  transform-origin: Research this*/
+
 }
 
 .utility-nav{
@@ -70,8 +75,9 @@ header h3{
   display: inline-block;
   width:394px;
   height:65px;
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
   text-align: right;
   margin: 0 auto;
   padding: 0 auto;
@@ -109,6 +115,177 @@ header h3{
   position: absolute;
   margin-left: 8px;
   margin-top: 2px;
+  margin-right: 84px;
+}
+
+/*Middle Section*/
+
+.mid h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 63px;
+  color: #223752;
+  line-height: 1.1em;
+  padding-bottom: 3px;
+  margin-bottom: 13px;
+}
+.mid span{
+  margin-top: 69px;
+  position: absolute;
+  top: 518px;
+  left:164px;
+  letter-spacing: .25px;
+}
+.content1{
+  color: #757B81;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  height: 597px;
+  width: 671px;
+  float: left;
+  margin-left: 164px;
+  margin-top: 134px;
+}
+.mid p{
+  margin-top: 43px;
+}
+.clearfix{
+  clear:both;
+}
+.break{
+  height: 59px;
+  border-left: 1px solid #D2D2D2;
+  color: #406DB0;
+  font-size: 28px;
+  text-align: left;
+  margin: 10px;
+  padding: 0 auto;
+}
+.break p{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+#profilepic1{
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  float: left;
+  position: relative;
+  margin-top: -8px;
+  left: 6px;
+
+}
+
+aside .tint {
+  position: relative;
+}
+
+aside .tint:after{
+  content: '';
+  top: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+  background: rgba(16,98,170,.5);
+  bottom: 0;
+  right: 0;
+}
+
+#name1{
+  margin: -2px;
+  padding:0 auto;
+  vertical-align: middle;
+  color: #406DB0;
+  font-size: 12.5px;
+  float: left;
+  position: relative;
+  left: 10px;
+
+}
+#profilepic2{
+  height: 84px;
+  width: 84px;
+  border-radius: 50%;
+  /*float: left;
+  margin: 0 auto;
+  padding: 0 auto;*/
+  vertical-align: middle;
+  max-width: 100%;
+
+}
+.author .tint{
+  position: relative;
+  left:13px;
+}
+.author .tint:after{
+  border-radius: 50%;
+  height: 84px;
+  width: 84px;
+}
 
 
+#name2{
+  display: block;
+  clear: left;
+  color: #406DB0;
+  font-size: 16px;
+  font-style: 'Oswald', sans-serif;
+  text-align: center;
+  margin: 17px 41px 7px 20px;
+}
+#date{
+  position: relative;
+  top: 3px;
+  left:35px;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding-left: 16px;
+  font-size: 12px;
+  font-style: 'Open Sans', sans-serif;
+  float: left;
+
+}
+.ad{
+  height: 301px;
+  width: 277px;
+  max-width: 100%;
+}
+
+.ad-container .tint{
+  height: 301px;
+  width: 277px;
+}
+
+aside{
+  height: 946px;
+  width: 329px;
+  float: right;
+  margin-top: 83px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.sidebar-ad{
+  height: 301px;
+  width: 277px;
+}
+.sidebar-ad h3{
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  color: #406DB0;
+}
+.sidebar-ad p{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #A7B2BE;
+  line-height: 25px;
+}
+
+#ad-text{
+  text-align: right;
+  color:#BCC5CE;
+  font-family: 'Open Sans', sans-serif;
 }
