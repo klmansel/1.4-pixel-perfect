@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1300px;
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 523px;
+  background:   url("https://images.unsplash.com/photo-1446376271024-d83b7f98ed83?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0ce106547cec0f8fe2e48374fed11141");
+  background-size: cover;
+  position: relative; */for absolute children*/
+}
+header:before{
+  content: "";
+  position: absolute;
+  background-color: rgba(16,98,170,.8);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+header nav,
+header h1,
+header h3{
+  position: relative;
+}
+
+header h1,
+header h3{
+  text-align: center;
+}
+header h1{
+  font-size: 104px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  top: 207px;
+  left: 165px;
+  letter-spacing: .1px;
+}
+header h3{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 314px;
+  left: 488px;
+}
+/*Top bar*/
+.branding span{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.utility-nav{
+    margin-right: 63px;
+    margin-left: 17px;
+}
+/*About and Search-pixel-perfect*/
+.utility-nav a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  padding-right: 22px;
+  font-size: 18px;
+}
+/*Top Left Surf and Paddle Co Blog*/
+.utility-nav span {
+  display: inline-block;
+  width:394px;
+  height:65px;
+  margin-top: 10px;
+  font-size: 17px;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.utility-nav span1{
+  position: absolute;
+  right: 56px;
+  margin-right: 23px;
+  padding-left: 22px;
+}
+.utility-nav span2{
+  position: absolute;
+  right: 7px;
+
+}
+
+/*perfect-pixel surf image*/
+.surf{
+  height: 46px;
+  width: 46px;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+
+.utility-nav #nav{
+  position: absolute;
+  top: 21px;
+  right: 140px;
+}
+
+.search{
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 2px;
+
+
+}
