@@ -33,13 +33,12 @@ header h3{
   text-align: center;
 }
 header h1{
-  font-size: 104px;
+  font-size: 103px;
   font-family: 'Open Sans', sans-serif;
   color: white;
   position: absolute;
   top: 207px;
   left: 187px;
-
 }
 header h3{
   font-size: 16px;
@@ -70,17 +69,25 @@ header h3{
   padding-right: 22px;
   font-size: 18px;
 }
+.utility-nav a:hover{
+  color: white;
+}
 /*Top Left Surf and Paddle Co Blog*/
 .utility-nav span {
   display: inline-block;
   width:394px;
-  height:65px;
+  height:85px;
   margin-top: 0px;
   font-size: 17px;
   font-family: 'Open Sans', sans-serif;
   text-align: right;
   margin: 0 auto;
   padding: 0 auto;
+}
+.blog{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 
 .utility-nav span1{
@@ -89,9 +96,10 @@ header h3{
   margin-right: 23px;
   padding-left: 22px;
 }
+
 .utility-nav span2{
   position: absolute;
-  right: 7px;
+  right: 30px;
 
 }
 
@@ -99,8 +107,9 @@ header h3{
 .surf{
   height: 46px;
   width: 46px;
-  margin-right: 16px;
+  margin-right: 12px;
   margin-top: 10px;
+
 }
 
 .utility-nav #nav{
@@ -118,6 +127,7 @@ header h3{
   margin-right: 84px;
 }
 
+
 /*Middle Section*/
 
 .mid h1{
@@ -133,7 +143,7 @@ header h3{
   position: absolute;
   top: 518px;
   left:164px;
-  letter-spacing: .25px;
+  letter-spacing: .15px;
 }
 .content1{
   color: #757B81;
@@ -169,13 +179,12 @@ header h3{
 }
 #profilepic1{
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
+  height: 24px;
+  width: 24px;
   float: left;
   position: relative;
-  margin-top: -8px;
-  left: 6px;
-
+  margin-top: -12px;
+  left: 4px;
 }
 
 aside .tint {
@@ -204,6 +213,24 @@ aside .tint:after{
   left: 10px;
 
 }
+
+#date{
+  position: relative;
+  top: -2px;
+  left:12px;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding-left: 16px;
+  font-size: 13px;
+  font-style: 'Open Sans', sans-serif;
+  text-decoration: underline;
+  color:#BCC5CE;
+  float: left;
+}
+#on{
+  display: inline-block;
+}
+
 #profilepic2{
   height: 84px;
   width: 84px;
@@ -213,45 +240,46 @@ aside .tint:after{
   padding: 0 auto;*/
   vertical-align: middle;
   max-width: 100%;
-
+}
+.author{
+  font-family: 'Open Sans', sans-serif;
 }
 .author .tint{
   position: relative;
   left:13px;
 }
+
 .author .tint:after{
   border-radius: 50%;
   height: 84px;
   width: 84px;
 }
 
-
 #name2{
   display: block;
   clear: left;
   color: #406DB0;
   font-size: 16px;
-  font-style: 'Oswald', sans-serif;
+  font-style: 'Open Sans', sans-serif;
   text-align: center;
   margin: 17px 41px 7px 20px;
-}
-#date{
   position: relative;
-  top: 3px;
-  left:35px;
-  margin: 0 auto;
-  vertical-align: middle;
-  padding-left: 16px;
-  font-size: 12px;
-  font-style: 'Open Sans', sans-serif;
-  float: left;
-
+  right: 99px;
+  top: -4px;
 }
+.social a{
+  font-family: 'Open Sans', sans-serif;
+  color: #A6B1BD;
+  text-decoration: none;
+  font-size: 14px;
+}
+
 .ad{
   height: 301px;
   width: 277px;
   max-width: 100%;
 }
+
 
 .ad-container .tint{
   height: 301px;
@@ -260,7 +288,7 @@ aside .tint:after{
 
 aside{
   height: 946px;
-  width: 329px;
+  width: 413px;
   float: right;
   margin-top: 83px;
   margin-left: 5px;
@@ -288,4 +316,35 @@ aside{
   text-align: right;
   color:#BCC5CE;
   font-family: 'Open Sans', sans-serif;
+}
+.end{
+
+}
+.end h1{
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+.endpics{
+  float: left;
+}
+.endpics img{
+  float: left;
+  max-width: 100%;
+  height: 329px;
+  width: 320px;
+  padding: 0 auto;
+  margin: 0 auto;
+  border: 0 auto;
+
+}
+footer{
+  clear: both;
+}
+.copyright{
+  width: 409px;
+  height: 66px;
+}
+.footer-nav ul{
+  float: left;
 }
