@@ -80,6 +80,7 @@ header h3{
   margin-top: 0px;
   font-size: 17px;
   font-family: 'Open Sans', sans-serif;
+
   text-align: right;
   margin: 0 auto;
   padding: 0 auto;
@@ -147,17 +148,27 @@ header h3{
 }
 .content1{
   color: #757B81;
-  font-size: 17px;
+  font-size: 15.5px;
   font-family: 'Open Sans', sans-serif;
-  height: 597px;
+  display: inline-block;
+  height: 576px;
   width: 671px;
   float: left;
   margin-left: 164px;
   margin-top: 134px;
+  line-height: 25px;
+  letter-spacing: .45px;
 }
 .mid p{
   margin-top: 43px;
 }
+/*.para1,
+.para2,
+.para3,
+.para4{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+} */
 .clearfix{
   clear:both;
 }
@@ -186,6 +197,43 @@ header h3{
   margin-top: -12px;
   left: 4px;
 }
+.choices li{
+  float: left;
+  background-color: #A6B1BD;
+  color: white;
+  font-size: 12px;
+}
+
+#comment,
+#upload,
+#share{
+  float: left;
+  max-width: 100%;
+  background-color: #61686F;
+  height: 31px;
+  width: 30px;
+  margin: 0 auto;
+  padding: 0 auto;
+  vertical-align: middle;
+}
+#comment,
+#upload i{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  vertical-align: middle;
+}
+#share img{
+  height: 31px;
+  width: 30px;
+  margin: 0 auto;
+  padding: 0 auto;
+  vertical-align: middle;
+}
+
+
+/*Sidebar*/
 
 aside .tint {
   position: relative;
@@ -216,8 +264,8 @@ aside .tint:after{
 
 #date{
   position: relative;
-  top: -2px;
-  left:12px;
+  top: -9px;
+  left:6px;
   margin: 0 auto;
   vertical-align: middle;
   padding-left: 16px;
@@ -226,6 +274,7 @@ aside .tint:after{
   text-decoration: underline;
   color:#BCC5CE;
   float: left;
+  letter-spacing: .25px;
 }
 #on{
   display: inline-block;
@@ -246,7 +295,9 @@ aside .tint:after{
 }
 .author .tint{
   position: relative;
-  left:13px;
+  left:97px;
+  height: 84px;
+  width: 84px;
 }
 
 .author .tint:after{
@@ -264,14 +315,34 @@ aside .tint:after{
   text-align: center;
   margin: 17px 41px 7px 20px;
   position: relative;
-  right: 99px;
-  top: -4px;
+  right: 57px;
+  top: -3px;
+}
+.social{
+  position: relative;
+  left:42px;
+  bottom: 6px;
+  width: 300px;
+
 }
 .social a{
   font-family: 'Open Sans', sans-serif;
   color: #A6B1BD;
   text-decoration: none;
   font-size: 14px;
+}
+#facebook{
+  float: left;
+  position:relative;
+  left:11px;
+  bottom: 1px;
+}
+#instagram{
+  float: left;
+  position: relative;
+  left:120px;
+  bottom: 1px;
+  letter-spacing: 1.25px;
 }
 
 .ad{
@@ -318,33 +389,77 @@ aside{
   font-family: 'Open Sans', sans-serif;
 }
 .end{
-
+  border-top: 1px solid red;
+  height: 574px;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 .end h1{
   font-family: "Oswald", sans-serif;
-  font-size: 60px;
+  font-size: 63px;
   text-align: center;
+  color: #223752;
+  margin-left: 356px;
+  margin-bottom: 0px;
+  margin-top: 16px;
+  width: 590px;
 }
 .endpics{
   float: left;
+  position: relative;
+  top: 62px;
+  right: 1px;
+  height: 330px;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 .endpics img{
   float: left;
+  height: 330px;
+  width: 25%;
   max-width: 100%;
-  height: 329px;
-  width: 320px;
   padding: 0 auto;
   margin: 0 auto;
   border: 0 auto;
-
 }
 footer{
-  clear: both;
+
+  float: left;
+  height: 96px;
+  width: 1279px;
+  margin-top: 65px;
+  background-color: #223752;
+
 }
 .copyright{
-  width: 409px;
-  height: 66px;
+  display: inline-block;
+  float: left;
+  height: 95px;
+  color: white;
+  margin-left: 160px;
+}
+.copyright img{
+  display: inline-block;
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+.footer-nav{
+  display: inline-block;
+  float: left;
 }
 .footer-nav ul{
+  display: inline-block;
   float: left;
+  position: relative;
+  top: 60px;
+}
+.footer-nav li{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #A2AEBB;
+  float: left;
+  text-align: right;
 }
