@@ -68,6 +68,7 @@ header h3{
   font-family: 'Oswald', sans-serif;
   padding-right: 22px;
   font-size: 18px;
+  transition: color 1s;
 }
 .utility-nav a:hover{
   color: white;
@@ -583,6 +584,7 @@ footer{
   color: #A2AEBB;
   float: left;
   text-align: right;
+  transition: color 1s;
 }
 .footer-nav li:hover{
   color: white;
