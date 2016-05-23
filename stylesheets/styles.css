@@ -50,7 +50,7 @@ header h3{
 /*Top bar*/
 #paddle{
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: white;
   transform:scale(-3,1); /* Safari and Chrome */
   letter-spacing: -5px;
 /*  transform-origin: Research this*/
@@ -130,7 +130,9 @@ header h3{
 
 
 /*Middle Section*/
-
+.mid{
+  width: 605px;
+}
 .mid h1{
   font-family: 'Oswald', sans-serif;
   font-size: 63px;
@@ -157,18 +159,35 @@ header h3{
   margin-left: 164px;
   margin-top: 134px;
   line-height: 25px;
-  letter-spacing: .45px;
+
 }
 .mid p{
   margin-top: 43px;
 }
-/*.para1,
+.para1,
 .para2,
 .para3,
 .para4{
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
-} */
+}
+.para1{
+  position: relative;
+  bottom:21px;
+}
+.para2{
+  position: relative;
+  left: 2px;
+  bottom: 32px;
+}
+.para2 a{
+
+  color: #C9D0D8;
+}
+.para2 a:hover{
+  color: #406DB0
+}
+
 .clearfix{
   clear:both;
 }
@@ -180,11 +199,19 @@ header h3{
   text-align: left;
   margin: 10px;
   padding: 0 auto;
+  position: relative;
+  top: bottom:153px;
+  left: 4px;
+  bottom:38px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }
 .break p{
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: bottom:41px;
+  margin-top: 20px
+  margin-bottom:20px;
+  left: 16px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
 }
@@ -202,6 +229,8 @@ header h3{
   background-color: #A6B1BD;
   color: white;
   font-size: 12px;
+  margin-left: 10px;
+  letter-spacing: .75px;
 }
 
 #comment,
@@ -215,21 +244,35 @@ header h3{
   margin: 0 auto;
   padding: 0 auto;
   vertical-align: middle;
+
+}
+#share{
+  background-color: #223752;
+}
+#blue{
+  background-color: #406DB0;
 }
 #comment,
 #upload i{
   max-width: 100%;
   max-height: 100%;
   margin: 0 auto;
-  padding: 0 auto;
+  padding-left: 5px;
+  padding-top: 2px;
+  font-size: 17px;
   vertical-align: middle;
 }
+#upload,
+#share{
+
+}
 #share img{
-  height: 31px;
-  width: 30px;
+  height: 13px;
+  width: 21px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding-left: 5px;
   vertical-align: middle;
+  color: white;
 }
 
 
@@ -329,19 +372,20 @@ aside .tint:after{
   font-family: 'Open Sans', sans-serif;
   color: #A6B1BD;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 #facebook{
   float: left;
   position:relative;
-  left:11px;
-  bottom: 1px;
+
+}
+#twitter{
+  float: left;
+  position: relative;
+
 }
 #instagram{
   float: left;
-  position: relative;
-  left:120px;
-  bottom: 1px;
   letter-spacing: 1.25px;
 }
 
@@ -364,7 +408,6 @@ aside{
   margin-top: 83px;
   margin-left: 5px;
   margin-right: 5px;
-
 }
 
 .sidebar-ad{
@@ -375,6 +418,7 @@ aside{
   font-family: 'Oswald', sans-serif;
   text-align: left;
   color: #406DB0;
+  font-size: 18px;
 }
 .sidebar-ad p{
   font-size: 14px;
@@ -384,6 +428,7 @@ aside{
 }
 
 #ad-text{
+  float: left;
   text-align: right;
   color:#BCC5CE;
   font-family: 'Open Sans', sans-serif;
@@ -408,43 +453,117 @@ aside{
 .endpics{
   float: left;
   position: relative;
-  top: 62px;
-  right: 1px;
+  top: 47px;
+/*right: 1px;*/
   height: 330px;
+  width: 1300px;
   padding: 0;
   margin: 0;
   border: 0;
 }
 .endpics img{
-  float: left;
+  display: inline-block;
   height: 330px;
-  width: 25%;
-  max-width: 100%;
+  width: 325px;
   padding: 0 auto;
   margin: 0 auto;
   border: 0 auto;
+  opacity: 25%;
 }
-footer{
-
+#img1,
+#img2,
+#img3,
+#img4{
   float: left;
-  height: 96px;
-  width: 1279px;
-  margin-top: 65px;
+}
+#img1{
+  width: 324px;
+}
+#img2{
+  width: 325px;
+}
+#img3{
+  width: 325px;
+}
+#img4{
+  width: 325px;
+}
+.pictext ul{
+
+  font-size: 29.5px;
+  font-family: "Oswald", sans-serif;
+  color: #223752;
+}
+.pictext li{
+  display: inline-block;
+  float: left;
+  width: 320px;
+  position: relative;
+  top:2px;
+  left: 28px;
+}
+#white{
+  float: left;
+  color: white;
+  position: relative;
+  left: -6px;
+}
+#list1{
+  position: relative;
+  bottom: 1px;
+  right:12px;
+}
+#list3{
+  position: relative;
+  bottom: 40px;
+  left:1px;
+}
+#list3 li{
+  float: left;
+  width: 260px;
+  line-height: 33px;
+  font-size: 30px;
+}
+#list4{
+  float: left;
+  position: relative;
+  left:67px;
+  top:1px;
+}
+
+footer{
+  float: left;
+  height: 110px;
+  width: 1300px;
+  position: relative;
+  bottom: 20px;
   background-color: #223752;
 
 }
 .copyright{
   display: inline-block;
   float: left;
-  height: 95px;
+  height: 52px;
   color: white;
   margin-left: 160px;
 }
 .copyright img{
   display: inline-block;
   float: left;
-  height: 60px;
-  width: 60px;
+  position: relative;
+  right: 5px;
+  top: 14px;
+  height: 65px;
+  width: 65px;
+}
+#tiy{
+  float: left;
+  position: relative;
+  top: 39px;
+  right: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13.5px;
+  letter-spacing: .2px;
 }
 .footer-nav{
   display: inline-block;
@@ -454,7 +573,9 @@ footer{
   display: inline-block;
   float: left;
   position: relative;
-  top: 60px;
+  top: 40px;
+  left: 278px;
+
 }
 .footer-nav li{
   font-family: "Open Sans", sans-serif;
@@ -462,4 +583,7 @@ footer{
   color: #A2AEBB;
   float: left;
   text-align: right;
+}
+footer:hover{
+  color: white;
 }
