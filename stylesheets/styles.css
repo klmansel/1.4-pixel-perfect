@@ -584,6 +584,6 @@ footer{
   float: left;
   text-align: right;
 }
-footer:hover{
+.footer-nav li:hover{
   color: white;
 }
