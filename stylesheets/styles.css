@@ -155,10 +155,11 @@ header h3{
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
   height: 576px;
-  width: 671px;
+  width: 651px;
   float: left;
   margin-left: 164px;
   margin-top: 134px;
+  margin-right: 0;
   line-height: 25px;
 
 }
@@ -394,17 +395,19 @@ aside .tint:after{
   height: 301px;
   width: 277px;
   max-width: 100%;
+  position: relative;
 }
 
 
 .ad-container .tint{
   height: 301px;
   width: 277px;
+  position: absolute;
 }
 
-aside{
+aside {
   height: 946px;
-  width: 413px;
+  width: 400px;
   float: right;
   margin-top: 83px;
   margin-left: 5px;
@@ -414,12 +417,15 @@ aside{
 .sidebar-ad{
   height: 301px;
   width: 277px;
+  position: relative;
+  top: 330px;
 }
 .sidebar-ad h3{
   font-family: 'Oswald', sans-serif;
   text-align: left;
   color: #406DB0;
   font-size: 18px;
+
 }
 .sidebar-ad p{
   font-size: 14px;
@@ -430,9 +436,12 @@ aside{
 
 #ad-text{
   float: left;
-  text-align: right;
+  /*text-align: right;*/
   color:#BCC5CE;
   font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top:310px;
+  left: 10px;
 }
 .end{
   border-top: 1px solid red;
@@ -506,30 +515,64 @@ aside{
 #white{
   float: left;
   color: white;
+  background-image: url('http://destinationangelscamp.com/wp-content/uploads/2014/01/beer-tasting.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width:325px;
+  height: 330px;
+}
+
+#white li {
   position: relative;
-  left: -6px;
+  top: 220px;
 }
 #list1{
-  position: relative;
-  bottom: 1px;
-  right:12px;
+  background-image: url('../images/surfer.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  width:325px;
+  height: 330px;
 }
-#list3{
+
+#list1 li {
   position: relative;
-  bottom: 40px;
-  left:1px;
+  top: 220px;
+}
+
+#list3 {
+  background-image: url('../images/zachg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    width:325px;
+    height: 330px;
+
 }
 #list3 li{
   float: left;
   width: 260px;
   line-height: 33px;
   font-size: 30px;
-}
-#list4{
-  float: left;
   position: relative;
-  left:67px;
-  top:1px;
+  top: 190px;
+
+}
+#list4 {
+  display: inline-block;
+  float: left;
+  background-image: url('../images/beertap.jpg');
+    background-repeat: no-repeat;
+    width:320px;
+  height: 330px;
+}
+
+#list4 li {
+  position: relative;
+  top: 220px;
 }
 
 footer{
